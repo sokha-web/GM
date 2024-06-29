@@ -7,4 +7,25 @@
         margin-left: 300px;
         margin-right: 300px;
     }
+    .logo{
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width : 950px) {
+    .t-1{
+        font-size: 40px;
+    }
+    .t-2{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .info{
+        margin-left: 5px;
+    }
+    .lang{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
