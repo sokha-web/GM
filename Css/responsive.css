@@ -1,4 +1,4 @@
-@media (max-width : 1235px) {
+@media (max-width : 1280px) {
     .reg-auth{
         display: none;
     }
@@ -7,9 +7,8 @@
         margin-left: 300px;
         margin-right: 300px;
     }
-    .logo{
-        float: left;
-        margin-left: 10px;
+    #menu-toggle{
+        top: 20px;
     }
 }
 
@@ -27,5 +26,8 @@
     .lang{
         margin-right: 50px;
         margin-left: 50px;
+    }
+    .logo{
+        margin-left: 10px;
     }
 }

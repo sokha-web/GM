@@ -101,6 +101,90 @@ a{
     padding-top: 20px;
 }
 
+
+/* Side Bar */
+
+.sidebar {
+    position: fixed;
+    right: 0; 
+    top: 0; 
+    width: 100%;
+    height: 100vh;
+    background-color: #646464c0;
+    padding: 20px;
+    transform: translateX(100%); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.sidebar a:hover {
+    font-size: 2.5rem;
+    transition: 1.5s;
+    color: #DC3473;
+}
+
+#menu-toggle {
+    position: relative;
+    top: -5px;
+    right: 20px; 
+    margin-left: 40px;
+    padding: 10px;
+    background-color: #ffffff00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+}
+
+.close-btn:hover {
+    color: #b6b6b6;
+    transition: 1s;
+}
+
+
 /* Body */
 
 body{
