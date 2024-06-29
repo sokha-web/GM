@@ -1,0 +1,10 @@
+@media (max-width : 1235px) {
+    .reg-auth{
+        display: none;
+    }
+
+    .lang{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
