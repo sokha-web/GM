@@ -631,3 +631,45 @@ span#login-message {
     margin: auto;
     padding-left: 10px;
 }
+
+
+/* lang */
+
+#language-switcher {
+    cursor: pointer;
+}
+
+/* contact */
+
+.contact{
+    max-width: 100%;
+    width: 1000px;
+    height: 70%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.contact h1{
+    font-size: 30px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    top: 50%;
+    right: 50px;
+
+}
+
+.contact img{
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.img-1{
+    float: left;
+}
+
+.div1{
+    float: right;
+    top: 100px;
+}

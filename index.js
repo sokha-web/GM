@@ -55,3 +55,19 @@ loginForm.addEventListener('submit', (event) => {
 });
 
 
+
+//
+const languageSwitcher = document.getElementById('language-switcher');
+
+let currentLanguage = 'ge'; 
+
+languageSwitcher.addEventListener('click', () => {
+  currentLanguage = currentLanguage === 'ge' ? 'en' : 'ge'; 
+
+  console.log(`Language changed to: ${currentLanguage}`);
+
+  languageSwitcher.src = `Images/lang${currentLanguage}.svg`;
+  languageSwitcher.alt = `Language (${currentLanguage === 'ge' ? 'Georgia' : 'Spanish'})`;
+});
+
+
