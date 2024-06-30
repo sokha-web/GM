@@ -429,6 +429,56 @@ a{
     justify-content: center;
 }
 
+/* rate */
+
+.rate{
+    width: 1300px;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.man{
+    width: 300px;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+.text{
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 25px;
+    width: 950px;
+    margin-left: 20px;
+    height: 450px;
+}
+
+.gio{
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    color: red;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.jal{
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size: 3.5rem;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.main-text{
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
 /* Footer */
 
 footer{
@@ -447,3 +497,8 @@ footer{
     font-size: 1.5rem;
 }
 
+
+/* html */
+html{
+    scroll-behavior: smooth;
+}
