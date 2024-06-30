@@ -30,7 +30,7 @@
 }
 
 
-@media (max-width : 950px) {
+@media (max-width : 1050px) {
     .t-1{
         font-size: 40px;
         margin-left: 100px;
@@ -57,6 +57,37 @@
         width: 800px;
         height: 500px;
     }
+ 
+    #registrationForm{
+        height: 100vh;
+    }
+
+    .registration{
+        max-width: 100%;
+        width: 600px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #few1{
+        margin: auto;
+        max-width: 100%;
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+    #few{
+        margin: auto;
+        max-width: 100%;
+        float: left;
+        margin-left: 160px;
+        margin-top: -30px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="email"]{
+        padding: 5px;
+    }
 }
 
 @media (max-width : 780px){
@@ -76,11 +107,37 @@
         margin-top: -20px;
         margin-left: 10px;
     }
+    #few1{
+        margin: auto;
+        max-width: 100%;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    #few{
+        margin: auto;
+        max-width: 100%;
+        float: left;
+        margin-left: 100px;
+        margin-top: -30px;
+    }
 }
 @media (max-width: 500px) {
     .text{
         width: 350px;
         height: auto;
+    }
+    #few1{
+        margin: auto;
+        max-width: 100%;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    #few{
+        margin: auto;
+        max-width: 100%;
+        float: left;
+        margin-left: 60px;
+        margin-top: -30px;
     }
 }
 

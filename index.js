@@ -6,12 +6,12 @@ const closeButton = document.querySelector(".close-btn");
 
 toggleButton.addEventListener("click", () => {
   sidebar.classList.toggle("active");
-  toggleButton.classList.toggle("active"); // Toggle active class for the button as well (optional)
+  toggleButton.classList.toggle("active"); 
 });
 
 closeButton.addEventListener("click", () => {
   sidebar.classList.remove("active");
-  toggleButton.classList.remove("active"); // Optionally remove active class from toggle button
+  toggleButton.classList.remove("active"); 
 });
 
 
@@ -29,17 +29,22 @@ function moveSlide(direction) {
     currentSlide++;
   }
 
-  currentSlide = Math.max(currentSlide, 0); // Don't go beyond first slide
-  currentSlide = Math.min(currentSlide, 5); // Don't go beyond last slide
+  currentSlide = Math.max(currentSlide, 0); 
+  currentSlide = Math.min(currentSlide, 5);
 
-  sliderTrack.classList.remove('active'); // Remove active class for transition
-  sliderTrack.offsetWidth; // Force reflow to ensure smooth transition
-  sliderTrack.classList.add('active'); // Add active class for transition
+  sliderTrack.classList.remove('active'); 
+  sliderTrack.offsetWidth; 
+  sliderTrack.classList.add('active'); 
 
-  sliderTrack.style.transform = `translateX(-${currentSlide * (100 / 6)}%)`; // Adjust based on slide width calculation
+  sliderTrack.style.transform = `translateX(-${currentSlide * (100 / 6)}%)`; 
 }
 
 prevButton.addEventListener('click', () => moveSlide('prev'));
 nextButton.addEventListener('click', () => moveSlide('next'));
+
+
+// Registration From
+
+
 
 

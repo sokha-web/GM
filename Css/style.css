@@ -502,3 +502,96 @@ footer{
 html{
     scroll-behavior: smooth;
 }
+
+/* Registration */
+
+.registration{
+    max-width: 100%;
+    width: 1000px;
+    height: 75%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+/* Reg name */
+
+.reg-1{
+    font-size: 1.5rem;
+    color: #DC3473;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* Registration From */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: 5px 5px 5px 0px;
+    color: #252525;
+}
+
+button[type="submit"] {
+    background-color: #DC3473;
+    color: white;
+    padding: 10px 20px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+}
+
+
+#few1{
+   float: left;
+   margin-left: 200px;
+   margin-right: 50px;
+}
+#few{
+    right: 0;
+    padding-top: 45px;
+}
+
+.registrationForm{
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+}
+
+.form-group-1{
+    width: 100px;
+    margin: auto;
+}
+
+button[type="submit"]:hover{
+    color: #DC3473;
+    background-color: white;
+    border: 1px solid black ;
+    transition: 1s;
+}
