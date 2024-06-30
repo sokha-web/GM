@@ -38,7 +38,7 @@
     .t-2{
         width: 200px;
         margin-top: 5px;
-        margin-left: 100px;
+        margin-left: 10px;
     }
     .info{
         margin-left: 5px;
@@ -69,12 +69,12 @@
     }
     .t-1{
         font-size: 40px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
     .t-2{
         width: 200px;
-        margin-top: 5px;
-        margin-left: 50px;
+        margin-top: -20px;
+        margin-left: 10px;
     }
 }
 @media (max-width: 500px) {
@@ -82,10 +82,5 @@
         width: 450px;
         height: 800px;
     }
-    .rate{
-        width: 500px;
-        height: 800px;
-    }
-
 }
 
