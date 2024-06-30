@@ -77,10 +77,15 @@
         margin-left: 50px;
     }
 }
-@media (max-width: 479px) {
+@media (max-width: 500px) {
     .text{
         width: 450px;
         height: 800px;
     }
+    .rate{
+        width: 500px;
+        height: 800px;
+    }
+
 }
 
