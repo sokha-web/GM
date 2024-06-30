@@ -237,6 +237,198 @@ hr{
     margin-top: 0px;
 }
 
+/* Inline grid News */
+
+.div-row{
+    display: flex;
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.div-row img{
+    width: 220px;
+}
+
+.div-row h1{
+    font-size: 1.5rem;
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+}
+
+
+.price{
+    margin-top: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.div-1{
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    width: 250px;
+}
+
+.div-2{
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    width: 250px;
+}
+
+.div-3{
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    width: 250px;
+}
+
+.div-4 {
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    width: 250px;
+}
+
+.div-5 {
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+    width: 250px;
+}
+
+
+.div-6 {
+    border: 1px solid rgba(206, 206, 206, 0);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px;
+    color: #726a6a;
+    font-family: "BPG Nateli Mtavruli", sans-serif;
+    width: 250px;   
+}
+
+
+.div-1:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.div-2:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.div-3:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.div-4:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.div-5:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.div-6:hover{
+    cursor: pointer;
+    color: #DC3473;
+    transition: 1s;
+}
+
+.cart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DC3473;
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.cart:hover{
+    transition: 1s;
+    color: red;
+}
+
+a{
+    color: black;
+}
+
+
+
+
+/* slider */
+
+.slider-container {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.slider-track {
+    display: flex;
+    width: calc(30% * 6); 
+    transition: transform 1.0s ease-in-out; 
+}
+
+.slide {
+    width: calc(100% / 6); 
+    text-align: center;
+    background-color: #00000000;
+    padding: 20px;
+}
+
+
+.slider-track.active {
+    transform: translateX(-calc(100% / 6)); 
+}
+
+
+#prev-button, #next-button {
+    border: 1px solid black;
+    color: rgb(187, 187, 187);
+    background-color: #252525   ;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#prev-button:hover{
+    color: black;
+    background-color: rgb(187, 187, 187);
+    transition: 1s;
+}
+
+#next-button:hover{
+    color: black;
+    background-color: rgb(187, 187, 187);
+    transition: 1s;
+}
+
+
+#slider-button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 
 footer{
