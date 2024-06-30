@@ -10,6 +10,12 @@
     #menu-toggle{
         top: 20px;
     }
+    .reg-res{
+        display: block;
+    }
+    .auth-res{
+        display: block;
+    }
 }
 
 @media (max-width : 950px) {
@@ -29,5 +35,8 @@
     }
     .logo{
         margin-left: 10px;
+    }
+    footer{
+        height: 80px;
     }
 }
