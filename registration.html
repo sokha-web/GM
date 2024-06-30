@@ -18,7 +18,7 @@
 
         <div class="reg-auth">
             <a href="registration.html" class="reg"> რეგისტრაცია </a>
-            <a href="#" class="auth"> ავტორიზაცია </a>
+            <a href="auth.html" class="auth"> ავტორიზაცია </a>
         </div>
 
         <a href="#"><img src="Images/lang.svg" alt="language" class="lang"></a>
@@ -38,8 +38,8 @@
                 <li><a href="#">შემოთავაზებები</a></li>
                 <li><a href="#">აქციები</a></li>
                 <li><a href="#">კატეგორიები</a></li>
-                <li class="reg-res"><a href="#">რეგისტრაცია</a></li>
-                <li class="auth-res"><a href="#">ავტორიზაცია</a></li>
+                <li class="reg-res"><a href="registration.html">რეგისტრაცია</a></li>
+                <li class="auth-res"><a href="auth.html">ავტორიზაცია</a></li>
             </ul>
         </div>
     </div>
@@ -55,6 +55,8 @@
                 <div class="form-group">
                     <label for="password">შეიყვანეთ პაროლი</label>
                     <input type="password" id="password" name="password" required>
+                    <div id="password-strength"></div>
+                    <span id="message"></span>
                 </div>
                 <div class="form-group">
                     <label for="confirmPassword">შეიყვანეთ პაროლი თავიდან</label>

@@ -43,8 +43,15 @@ prevButton.addEventListener('click', () => moveSlide('prev'));
 nextButton.addEventListener('click', () => moveSlide('next'));
 
 
-// Registration From
+// Auth From
+const loginForm = document.getElementById('login-form');
+const loginMessage = document.getElementById('login-message');
 
+loginForm.addEventListener('submit', (event) => {
+  event.preventDefault();
 
+ 
+  loginMessage.textContent = "Login successful (not secure)";
+});
 
 

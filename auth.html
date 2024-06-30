@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/GM.svg">
+    <link rel="stylesheet" href="Css/Fonts/css/bpg-nino-mtavruli-bold.min.css">
+    <link rel="stylesheet" href="Css/Fonts/css/bpg-nateli-mtavruli.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <title> მთავარი გვერდი </title>
+</head>
+
+<header class="header">
+    <div class="list">
+        <a href="index.html"><img src="Images/GM.svg" alt="logo" class="logo"></a>
+
+        <div class="reg-auth">
+            <a href="registration.html" class="reg"> რეგისტრაცია </a>
+            <a href="#" class="auth"> ავტორიზაცია </a>
+        </div>
+
+        <a href="#"><img src="Images/lang.svg" alt="language" class="lang"></a>
+
+        <button id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    
+        <div class="sidebar">
+                <button class="close-btn">&#x2716;</button> <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="#">კონტაქტები</a></li>
+                <li><a href="#sec2">სიახლეები</a></li>
+                <li><a href="#">ჩვენს შესახებ</a></li>
+                <li><a href="#">შემოთავაზებები</a></li>
+                <li><a href="#">აქციები</a></li>
+                <li><a href="#">კატეგორიები</a></li>
+                <li class="reg-res"><a href="registration.html">რეგისტრაცია</a></li>
+                <li class="auth-res"><a href="auth.html">ავტორიზაცია</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="auth">
+        <h1>ავტორიზაცია</h1>
+        <div id="login">
+            <form id="login-form">
+                <label for="username">სახელი ან ელ-ფოსტა</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">პაროლი</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">შესვლა</button>
+                <span id="login-message"></span>
+            </form>
+        </div>
+    </div>
+
+</header>
+<body>
+    <script src="index.js"></script>
+</body>
+    <footer>
+        <h1 class="footer"> ნიკა სოხაშვილი © 2024 წელი ყველა უფლება დაცულია </h1>
+    </footer>
+</html>
